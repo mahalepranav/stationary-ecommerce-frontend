@@ -1,4 +1,4 @@
-const backendDomain = "https://stationary-ecommerce-backend-gamma.vercel.app/api"
+const backendDomain = "http://localhost:8000/api"
 
 const SummaryApi = {
     signUp : {
