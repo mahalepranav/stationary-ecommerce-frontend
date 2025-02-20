@@ -3,79 +3,79 @@ const backendDomain = "https://stationary-ecommerce-backend-ten.vercel.app/api"
 const SummaryApi = {
     signUp : {
         url : `${backendDomain}/signup`,
-        method : "post",
+        method : "POST",
     },
     signIn : {
         url : `${backendDomain}/signin`,
-        method : "post",
+        method : "POST",
     },
     current_user : {
         url : `${backendDomain}/user-details`,
-        method : "get",
+        method : "GET",
     },
     logout_user : {
         url : `${backendDomain}/userLogout`,
-        method : "get",
+        method : "GET",
     },
     allUser : {
         url : `${backendDomain}/all-user`,
-        method : "get",
+        method : "GET",
     },
     updateUser : {
         url : `${backendDomain}/update-user`,
-        method : "post"
+        method : "POST"
     },
     uploadProduct : {
         url : `${backendDomain}/upload-product`,
-        method : "post"
+        method : "POST"
     },
     allProduct : {
         url : `${backendDomain}/get-product`,
-        method : "get"
+        method : "GET"
     },
     updateProduct : {
         url : `${backendDomain}/update-product`,
-        method : "post"
+        method : "POST"
     },
     categoryProduct : {
         url : `${backendDomain}/get-categoryProduct`,
-        method : "get"
+        method : "GET"
     },
     categoryWiseProduct : {
         url : `${backendDomain}/category-product`,
-        method : "post"
+        method : "POST"
     },
     productDetails : {
         url : `${backendDomain}/product-details`,
-        method : "post"
+        method : "POST"
     },
     addToCartProduct : {
         url : `${backendDomain}/addtocart`,
-        method : "post"
+        method : "POST"
     },
     addToCartProductCount : {
         url : `${backendDomain}/countAddToCartProduct`,
-        method : "get"
+        method : "GET"
     },
     addToCartProductView : {
         url : `${backendDomain}/view-card-product`,
-        method : "get"
+        method : "GET"
     },
     updateCartProduct : {
         url : `${backendDomain}/update-cart-product`,
-        method : "post"
+        method : "POST"
     },
     deleteCartProduct : {
         url : `${backendDomain}/delete-cart-product`,
-        method : "post"
+        method : "POST"
     },
     searchProduct : {
         url : `${backendDomain}/search`,
-        method : "get"
+        method : "GET"
     },
     filterProduct : {
         url : `${backendDomain}/filter-product`,
-        method : "post"
+        method : "POST"
     }          
 };
 
