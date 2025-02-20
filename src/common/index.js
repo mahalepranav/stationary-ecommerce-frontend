@@ -1,80 +1,80 @@
-const backendDomain = "https://stationary-ecommerce-backend-gamma.vercel.app"
+const backendDomain = "https://stationary-ecommerce-backend-gamma.vercel.app/api"
 
 const SummaryApi = {
     signUp : {
-        url : `${backendDomain}/api/signup`,
+        url : `${backendDomain}/signup`,
         method : "post",
     },
     signIn : {
-        url : `${backendDomain}/api/signin`,
+        url : `${backendDomain}/signin`,
         method : "post",
     },
     current_user : {
-        url : `${backendDomain}/api/user-details`,
+        url : `${backendDomain}/user-details`,
         method : "get",
     },
     logout_user : {
-        url : `${backendDomain}/api/userLogout`,
+        url : `${backendDomain}/userLogout`,
         method : "get",
     },
     allUser : {
-        url : `${backendDomain}/api/all-user`,
+        url : `${backendDomain}/all-user`,
         method : "get",
     },
     updateUser : {
-        url : `${backendDomain}/api/update-user`,
+        url : `${backendDomain}/update-user`,
         method : "post"
     },
     uploadProduct : {
-        url : `${backendDomain}/api/upload-product`,
+        url : `${backendDomain}/upload-product`,
         method : "post"
     },
     allProduct : {
-        url : `${backendDomain}/api/get-product`,
+        url : `${backendDomain}/get-product`,
         method : "get"
     },
     updateProduct : {
-        url : `${backendDomain}/api/update-product`,
+        url : `${backendDomain}/update-product`,
         method : "post"
     },
     categoryProduct : {
-        url : `${backendDomain}/api/get-categoryProduct`,
+        url : `${backendDomain}/get-categoryProduct`,
         method : "get"
     },
     categoryWiseProduct : {
-        url : `${backendDomain}/api/category-product`,
+        url : `${backendDomain}/category-product`,
         method : "post"
     },
     productDetails : {
-        url : `${backendDomain}/api/product-details`,
+        url : `${backendDomain}/product-details`,
         method : "post"
     },
     addToCartProduct : {
-        url : `${backendDomain}/api/addtocart`,
+        url : `${backendDomain}/addtocart`,
         method : "post"
     },
     addToCartProductCount : {
-        url : `${backendDomain}/api/countAddToCartProduct`,
+        url : `${backendDomain}/countAddToCartProduct`,
         method : "get"
     },
     addToCartProductView : {
-        url : `${backendDomain}/api/view-card-product`,
+        url : `${backendDomain}/view-card-product`,
         method : "get"
     },
     updateCartProduct : {
-        url : `${backendDomain}/api/update-cart-product`,
+        url : `${backendDomain}/update-cart-product`,
         method : "post"
     },
     deleteCartProduct : {
-        url : `${backendDomain}/api/delete-cart-product`,
+        url : `${backendDomain}/delete-cart-product`,
         method : "post"
     },
     searchProduct : {
-        url : `${backendDomain}/api/search`,
+        url : `${backendDomain}/search`,
         method : "get"
     },
     filterProduct : {
-        url : `${backendDomain}/api/filter-product`,
+        url : `${backendDomain}/filter-product`,
         method : "post"
     }          
 };
